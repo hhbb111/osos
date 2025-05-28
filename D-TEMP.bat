@@ -58,5 +58,3 @@ del /s /f /q C:\aow_drv.log
 echo Done , Team  HANKERZ 
 call %temp%\TEMPmessage.vbs
 echo Processed Successfully! Restart your PC
-pause
-goto Menu
