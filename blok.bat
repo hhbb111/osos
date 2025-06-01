@@ -1,0 +1,2 @@
+netsh advfirewall firewall add rule name="GIO" dir=out action=block program="C:\program files\TxGameAssistant\ui\AndroidEmulatorEx.exe" protocol=TCP enable=yes remoteport=27015,27030,27036,27037,4380,27031,53,3480
+netsh advfirewall firewall add rule name="GIO1" dir=out action=block program="C:\program files\TxGameAssistant\ui\AndroidEmulatorEx.exe" protocol=TCP enable=yes remoteport=10010,10090,20000,20300,22100,1883,3478,3479,5000,5500,27000,27050
